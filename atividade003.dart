@@ -1,10 +1,9 @@
 void main(){
   int a = 0;
   while(a <= 1000){
+    if (a % 2 == 1)
     print(a);
     a++;
-    a++;
-    //exibe os números ímpares
+    //exibe os números pares
   }
-  
 }
